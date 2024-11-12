@@ -1,0 +1,27 @@
+<template>
+  <aside class="w-64 h-screen bg-white">
+    <!-- Logo Section -->
+    <div
+      class="flex items-center justify-center h-20 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold"
+    >
+      <img
+        src="../../assets/icons/svg/LogoIcon.svg"
+        alt="Logo"
+        class="w-8 h-8 mr-2"
+      />
+      <span class="text-3xl font-header font-semibold">Vast</span>
+    </div>
+
+    <!-- Menu Items -->
+    <nav class="flex flex-col p-4 space-y-2">
+      <NavigationItem :icon="DashboardIcon" label="Dashboard" :active="true" />
+      <NavigationItem :icon="InsightIcon" label="Insights" />
+    </nav>
+  </aside>
+</template>
+
+<script setup lang="ts">
+import NavigationItem from "./NavigationItem.vue";
+import DashboardIcon from "../../assets/icons/vue/DashboardIcon.vue";
+import InsightIcon from "../../assets/icons/vue/InsightIcon.vue";
+</script>
