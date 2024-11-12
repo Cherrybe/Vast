@@ -14,8 +14,14 @@
 
     <!-- Menu Items -->
     <nav class="flex flex-col p-4 space-y-2">
-      <NavigationItem :icon="DashboardIcon" label="Dashboard" :active="true" />
-      <NavigationItem :icon="InsightIcon" label="Insights" />
+      <NavigationItem
+        :icon="DashboardIcon"
+        :item="{ route: '/', label: 'Dashboard' }"
+      />
+      <NavigationItem
+        :icon="InsightIcon"
+        :item="{ route: '/insights', label: 'Insights' }"
+      />
     </nav>
   </aside>
 </template>
