@@ -29,7 +29,6 @@
 <script setup lang="ts">
 import SideNavigation from "./components/navigation/SideNavigation.vue";
 import TopNavigation from "./components/navigation/TopNavigation.vue";
-import Dashboard from "./components/dashboard/Dashboard.vue";
 </script>
 
 <style lang="scss">
