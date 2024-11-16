@@ -1,13 +1,6 @@
 <template>
-  <nav class="flex items-center justify-between p-4 bg-white shadow-md">
-    <!-- left side of navigation -->
-    <div class="flex items-center space-x-4">
-      <div class="relative">
-        <MenuIcon />
-      </div>
-    </div>
-    <!-- right side of navigation -->
-    <div class="flex items-center space-x-4">
+  <nav class="p-4 bg-white shadow-md">
+    <div class="flex justify-end items-center space-x-4">
       <!-- Notification Icon -->
       <div class="relative">
         <BellIcon />
@@ -49,6 +42,5 @@
 import BellIcon from "../../assets/icons/vue/BellIcon.vue";
 import MailIcon from "../../assets/icons/vue/MailIcon.vue";
 import CogIcon from "../../assets/icons/vue/SettingIcon.vue";
-import MenuIcon from "../../assets/icons/vue/MenuIcon.vue";
 import UserProfile from "../UserProfile.vue";
 </script>
