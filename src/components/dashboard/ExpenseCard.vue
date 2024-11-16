@@ -16,5 +16,5 @@
 
 <script setup lang="ts">
 import CardItem from "../card/CardItem.vue";
-import { cardInfo } from "../card/CardData";
+import { cardInfo } from "../card/cardDummydata/CardData";
 </script>

@@ -17,5 +17,5 @@
 
 <script setup lang="ts">
 import FinanceCard from "../card/FinanceCard.vue";
-import { TipData } from "../card/FinanceData";
+import { TipData } from "../card/cardDummydata/FinanceData";
 </script>
