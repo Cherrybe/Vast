@@ -24,8 +24,8 @@ const doughnutData = {
   },
   data: [
     { value: 55, name: "Rent", itemStyle: { color: "#ec4887" } },
-    { value: 12, name: "Bills", itemStyle: { color: "#ffb82c" } },
-    { value: 33, name: "Email", itemStyle: { color: "#875fc0" } },
+    { value: 25, name: "Bills", itemStyle: { color: "#ffb82c" } },
+    // { value: 33, name: "Email", itemStyle: { color: "#875fc0" } },
     {
       value: 42,
       name: "Employee Salary",
@@ -36,7 +36,7 @@ const doughnutData = {
 
 export const doughnutOptions = {
   title: {
-    text: "Top 4 Expenses",
+    text: "Top 3 Expenses",
     left: "0",
   },
   tooltip: {
@@ -45,7 +45,7 @@ export const doughnutOptions = {
   legend: {
     orient: "horizontal",
     left: "center",
-    top: "90%",
+    bottom: 0,
   },
   series: doughnutData,
 };

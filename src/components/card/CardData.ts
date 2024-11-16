@@ -35,7 +35,7 @@ export const cardInfo: CardInfo[] = [
     title: "Paid Amount",
     amount: "GHC 10,000",
     icon: PaidIcon,
-    backgroundColor: "bg-gradient-to-r from-indigo-500 to-blue-500",
+    backgroundColor: "bg-gradient-to-r from-[#875fc0] to-sky-500",
   },
   {
     title: "Pending Amount",
