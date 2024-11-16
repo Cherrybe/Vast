@@ -217,6 +217,6 @@ To install and set up the project, follow these steps:
 ## Project Architecture
 The Vast project follows a modular architecture where each feature is encapsulated within its own directory. This approach promotes maintainability and scalability, allowing for easy updates and feature additions.
 - **Components**: Reusable UI components.
-- **Store**: Centralized state management using Redux.
+- **Store**: Centralized state management using Pina.
 - **Routes**: Handles navigation across different views.
 - **Assets**: Images, icons, and other static assets.
