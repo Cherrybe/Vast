@@ -1,9 +1,9 @@
 import { Component } from "vue";
-import PaidIcon from "../../assets/icons/vue/PaidIcon.vue";
-import BonusGenerated from "../../assets/icons/vue/BonusGenerated.vue";
-import EwalletIcon from "../../assets/icons/vue/EwalletIcon.vue";
-import PendingPay from "../../assets/icons/vue/PendingPay.vue";
-import IncomeIcon from "../../assets/icons/vue/IncomeIcon.vue";
+import PaidIcon from "../../../assets/icons/vue/PaidIcon.vue";
+import BonusGenerated from "../../../assets/icons/vue/BonusGenerated.vue";
+import EwalletIcon from "../../../assets/icons/vue/EwalletIcon.vue";
+import PendingPay from "../../../assets/icons/vue/PendingPay.vue";
+import IncomeIcon from "../../../assets/icons/vue/IncomeIcon.vue";
 
 type TipType = {
   title: string;
