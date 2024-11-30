@@ -23,9 +23,9 @@
 </template>
 
 <script setup lang="ts">
-import ExpenseCard from "../components/dashboard/ExpenseCard.vue";
-import TopExpenses from "../components/dashboard/TopExpenses.vue";
 import RevenueTrends from "../components/dashboard/RevenueTrends.vue";
-import MonthlyNetCash from "../components/dashboard/MonthlyNetCash.vue";
+import TopExpenses from "../components/dashboard/TopExpenses.vue";
+import ExpenseCard from "../components/dashboard/ExpenseCard.vue";
 import FinancialTip from "../components/dashboard/FinancialTip.vue";
+import MonthlyNetCash from "../components/dashboard/MonthlyNetCash.vue";
 </script>

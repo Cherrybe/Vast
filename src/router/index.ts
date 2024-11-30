@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import DashboardView from "../views/DashboardView.vue";
-import Insights from "../components/insights/Insights.vue";
+import InsightView from "../views/InsightView.vue";
+import FinanceTipsView from "../views/FinanceTipsView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,7 +13,13 @@ const routes: Array<RouteRecordRaw> = [
     path: "/insights",
     name: "insights",
     meta: { auth: true },
-    component: Insights,
+    component: InsightView,
+  },
+  {
+    path: "/financial-tips",
+    name: "financial-tips",
+    meta: { auth: true },
+    component: FinanceTipsView,
   },
 ];
 

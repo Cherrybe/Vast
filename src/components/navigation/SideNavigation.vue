@@ -22,6 +22,10 @@
         :icon="InsightIcon"
         :item="{ route: '/insights', label: 'Insights' }"
       />
+      <NavigationItem
+        :icon="InsightIcon"
+        :item="{ route: '/financial-tips', label: 'Financial Tips' }"
+      />
     </nav>
   </aside>
 </template>

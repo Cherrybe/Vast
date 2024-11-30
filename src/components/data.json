@@ -1,0 +1,106 @@
+{
+  "expenseCards": [
+    {
+      "id": "1",
+      "title": "Current Cash Balance",
+      "amount": "GHC 25,000"
+    },
+    {
+      "id": "2",
+      "title": "Total Income",
+      "amount": "GHC 10,000"
+    },
+    {
+      "id": "3",
+      "title": "Bonus Generated",
+      "amount": "GHC 50,000"
+    },
+    {
+      "id": "4",
+      "title": "Paid Amount",
+      "amount": "GHC 3,000"
+    },
+    {
+      "id": "5",
+      "title": "Pending Amount",
+      "amount": "GHC 100,000"
+    }
+  ],
+  "monthlyNetCashFlow": {
+    "title": "Monthly Net Cash Flow",
+    "data": [
+      {
+        "month": "Jan",
+        "revenue": 5000,
+        "expenses": 3000,
+        "netCashFlow": 2000
+      },
+      {
+        "month": "Feb",
+        "revenue": 20000,
+        "expenses": 15000,
+        "netCashFlow": 5000
+      }
+    ]
+  },
+  "revenueTrends": {
+    "title": "Revenue and Expense Trend",
+    "data": [
+      {
+        "day": "Mon",
+        "revenue": 500,
+        "expenses": 1000
+      },
+      {
+        "day": "Tue",
+        "revenue": 732,
+        "expenses": 932
+      }
+    ]
+  },
+  "financialTip": [
+    {
+      "id": "1",
+      "title": "Current Cash Balance",
+      "description": "Ensure you have at least 3 months’ worth of expenses saved for emergencies."
+    },
+    {
+      "id": "2",
+      "title": "Total Income",
+      "description": "Evaluate your income streams and look for opportunities to increase them."
+    },
+    {
+      "id": "3",
+      "title": "Bonus Generated",
+      "description": "Use your bonus wisely: save or invest for long-term financial security."
+    },
+    {
+      "id": "4",
+      "title": "Paid Amount",
+      "description": "Track paid amounts closely to stay within your budget and avoid over-spending."
+    },
+    {
+      "id": "5",
+      "title": "Pending Amount",
+      "description": "Pay pending bills on time to maintain a healthy credit score."
+    }
+  ],
+  "topExpense": {
+    "category": "Expenses",
+    "title": "Top 3 Expenses",
+    "data": [
+      {
+        "name": "Rent",
+        "amount": 1500
+      },
+      {
+        "name": "Bills",
+        "amount": 1500
+      },
+      {
+        "name": "Employee Salary",
+        "amount": 1500
+      }
+    ]
+  }
+}
