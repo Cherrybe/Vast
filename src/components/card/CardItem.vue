@@ -2,7 +2,7 @@
   <div :class="['p-4 rounded-lg shadow-md text-white', backgroundColor]">
     <div class="text-sm font-medium font-header opacity-80">{{ title }}</div>
 
-    <div class="flex items-center space-x-14 3xl:space-x-40 mt-6">
+    <div class="flex items-center space-x-14 3xl:space-x-32 mt-6">
       <slot name="icon"></slot>
       <div class="text-md font-semibold">{{ value }}</div>
     </div>
