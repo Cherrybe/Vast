@@ -23,7 +23,7 @@
         :item="{ route: '/insights', label: 'Insights' }"
       />
       <NavigationItem
-        :icon="InsightIcon"
+        :icon="TipIcon"
         :item="{ route: '/financial-tips', label: 'Financial Tips' }"
       />
     </nav>
@@ -34,4 +34,5 @@
 import NavigationItem from "./NavigationItem.vue";
 import DashboardIcon from "../../assets/icons/vue/DashboardIcon.vue";
 import InsightIcon from "../../assets/icons/vue/InsightIcon.vue";
+import TipIcon from "../../assets/icons/vue/TipIcon.vue";
 </script>
