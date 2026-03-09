@@ -2,7 +2,20 @@
 
 ## Overview
 
-**Vast** is a financial management application designed for MSMEs (Micro, Small, and Medium Enterprises) to provide actionable insights into their finances. The platform aims to empower businesses with an overview of income, expenses, and revenue, coupled with personalized tips to optimize their financial health.
+**Vast** is a financial analytics dashboard designed for MSMEs and financial institutions to visualize business performance, track financial health, and generate actionable insights. The platform provides an overview of key financial metrics such as income, expenses, and revenue trends, combined with contextual recommendations that help businesses optimise financial decision-making.
+
+## Live Demo
+⚠️ This demo uses mock financial data for demonstration purposes.
+https://vast-zeta.vercel.app/
+
+## Screenshots
+
+### Dashboard Overview
+<img width="1919" height="1051" alt="image" src="https://github.com/user-attachments/assets/1d1fde6d-d536-4276-b95c-bd0a7471cb45" />
+
+### Financial Insights
+<img width="1919" height="1051" alt="image" src="https://github.com/user-attachments/assets/11e08ee3-bb24-44b8-9eb6-4e7ee4c48955" />
+
 
 ## Features  
 - **Dashboard:** A centralized hub displaying key financial metrics, trends, and performance insights.  
