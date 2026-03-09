@@ -1,5 +1,4 @@
-# Vast: Financial Application for MSMEs  
-## Vue 3 + TypeScript Financial Analytics Dashboard
+# Vast: Vue 3 + TypeScript Financial Analytics Dashboard for MSMEs
 
 ## Overview
 
